@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css"/>
+  <title>Instagram</title>
+</head>
+<body>
+  <section class="navigation">
+    <nav class="nav-bar">
+      <div class="nav-container">
+        <div class="logo-instagram">
+          <a href="#">
+            <img src="images/logo-ig.png" alt="instagram logo" width="115" height="45"/>
+          </a>
+        </div>
+        <div class="search-bar">
+          <form class="search">
+            <input type="text" placeholder="Search"/>
+          </form>
+        </div>
+        <div class="section-icons"> 
+          <a class="icon" href="#">
+            <svg aria-label="inicio" class="home-icon" fill="#262626" height="22" viewbox="0 0 48 48" width="22">
+              <path d="M 45.3 48 H 30 c -0.8 0 -1.5 -0.7 -1.5 -1.5 V 34.2 c 0 -2.6 -2 -4.6 -4.6 -4.6 s -4.6 2 -4.6 4.6 v 12.3 c 0 0.8 -0.7 1.5 -1.5 1.5 H 2.5 c -0.8 0 -1.5 -0.7 -1.5 -1.5 V 23 c 0 -0.4 0.2 -0.8 0.4 -1.1 L 22.9 0.4 c 0.6 -0.6 1.5 -0.6 2.1 0 l 21.5 21.5 c 0.4 0.4 0.6 1.1 0.3 1.6 c 0 0.1 -0.1 0.1 -0.1 0.2 v 22.8 c 0.1 0.8 -0.6 1.5 -1.4 1.5 Z m -13.8 -3 h 12.3 V 23.4 L 24 3.6 l -20 20 V 45 h 12.3 V 34.2 c 0 -4.3 3.3 -7.6 7.6 -7.6 s 7.6 3.3 7.6 7.6 V 45 Z"></path>
+            </svg>
+          </a>
+          <a class="icon" href="#">
+            <svg aria-label="inbox" class="inbox-icon" fill="#262626" height="22" viewbox="0 0 48 48" width="22">
+              <path d="M 46.5 3.5 h -45 C 0.6 3.5 0.2 4.6 0.8 5.2 l 16 15.8 l 5.5 22.8 c 0.2 0.9 1.4 1 1.8 0.3 L 47.4 5 c 0.4 -0.7 -0.1 -1.5 -0.9 -1.5 Z m -40.1 3 h 33.5 L 19.1 18 c -0.4 0.2 -0.9 0.1 -1.2 -0.2 L 6.4 6.5 Z m 17.7 31.8 l -4 -16.6 c -0.1 -0.4 0.1 -0.9 0.5 -1.1 L 41.5 9 L 24.1 38.3 Z"></path>
+            </svg>
+          </a>
+          <a class="icon" href="#">
+            <svg aria-label="explore" class="explore-icon" fill="#262626" height="22" viewbox="0 0 48 48" width="22">
+              <path d="M 24 0.5 C 37 0.5 47.5 11 47.5 24 S 37 47.5 24 47.5 S 0.5 37 0.5 24 S 11 0.5 24 0.5 Z m 0 44 c 11.3 0 20.5 -9.2 20.5 -20.5 S 35.3 3.5 24 3.5 S 3.5 12.7 3.5 24 S 12.7 44.5 24 44.5 Z m -4.4 -23.7 c 0.3 -0.5 0.7 -0.9 1.2 -1.2 l 14.8 -8.1 c 0.3 -0.1 0.6 -0.1 0.8 0.1 c 0.2 0.2 0.3 0.5 0.1 0.8 l -8.1 14.8 c -0.3 0.5 -0.7 0.9 -1.2 1.2 l -14.8 8.1 c -0.3 0.1 -0.6 0.1 -0.8 -0.1 c -0.2 -0.2 -0.3 -0.5 -0.1 -0.8 l 8.1 -14.8 Z m 6.2 5 l 4.3 -7.8 l -7.8 4.3 l 3.5 3.5 Z"></path>
+            </svg>
+          </a>
+          <a class="icon" href="#">
+            <svg aria-label="feed de actividades" class="heart-icon" fill="#262626" height="22" viewbox="0 0 48 48" width="22">
+              <path d="M 34.3 3.5 C 27.2 3.5 24 8.8 24 8.8 s -3.2 -5.3 -10.3 -5.3 C 6.4 3.5 0.5 9.9 0.5 17.8 s 6.1 12.4 12.2 17.8 c 9.2 8.2 9.8 8.9 11.3 8.9 s 2.1 -0.7 11.3 -8.9 c 6.2 -5.5 12.2 -10 12.2 -17.8 c 0 -7.9 -5.9 -14.3 -13.2 -14.3 Z m -1 29.8 c -5.4 4.8 -8.3 7.5 -9.3 8.1 c -1 -0.7 -4.6 -3.9 -9.3 -8.1 c -5.5 -4.9 -11.2 -9 -11.2 -15.6 c 0 -6.2 4.6 -11.3 10.2 -11.3 c 4.1 0 6.3 2 7.9 4.2 c 3.6 5.1 1.2 5.1 4.8 0 c 1.6 -2.2 3.8 -4.2 7.9 -4.2 c 5.6 0 10.2 5.1 10.2 11.3 c 0 6.7 -5.7 10.8 -11.2 15.6 Z"></path>
+            </svg>
+          </a> 
+          <a class="icon-photo" href="#">
+            <img src="images/brownie-profile.jpg" alt="pacman brownie" width="22" height="22"/>
+          </a>     
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section class="main">
+    <div class="header">
+      <div class="profile-photo">
+        <img src="images/brownie-profile.jpg" alt="pacman brownie" width="150" height="150">
+      </div>
+      <div class="profile-info-container">
+        <span class="profile-info">
+          <h2>brownlit</h2>
+          <button class="settings-button">Edit profile</button>
+          <a class="settings" href="#">
+            <svg aria-label="settings" class="settings-icon" fill="#262626" height="24" viewBox="0 0 48 48" width="24">
+              <path d="M 46.7 20.6 l -2.1 -1.1 c -0.4 -0.2 -0.7 -0.5 -0.8 -1 c -0.5 -1.6 -1.1 -3.2 -1.9 -4.7 c -0.2 -0.4 -0.3 -0.8 -0.1 -1.2 l 0.8 -2.3 c 0.2 -0.5 0 -1.1 -0.4 -1.5 l -2.9 -2.9 c -0.4 -0.4 -1 -0.5 -1.5 -0.4 l -2.3 0.8 c -0.4 0.1 -0.8 0.1 -1.2 -0.1 c -1.4 -0.8 -3 -1.5 -4.6 -1.9 c -0.4 -0.1 -0.8 -0.4 -1 -0.8 l -1.1 -2.2 c -0.3 -0.5 -0.8 -0.8 -1.3 -0.8 h -4.1 c -0.6 0 -1.1 0.3 -1.3 0.8 l -1.1 2.2 c -0.2 0.4 -0.5 0.7 -1 0.8 c -1.6 0.5 -3.2 1.1 -4.6 1.9 c -0.4 0.2 -0.8 0.3 -1.2 0.1 l -2.3 -0.8 c -0.5 -0.2 -1.1 0 -1.5 0.4 L 5.9 8.8 c -0.4 0.4 -0.5 1 -0.4 1.5 l 0.8 2.3 c 0.1 0.4 0.1 0.8 -0.1 1.2 c -0.8 1.5 -1.5 3 -1.9 4.7 c -0.1 0.4 -0.4 0.8 -0.8 1 l -2.1 1.1 c -0.5 0.3 -0.8 0.8 -0.8 1.3 V 26 c 0 0.6 0.3 1.1 0.8 1.3 l 2.1 1.1 c 0.4 0.2 0.7 0.5 0.8 1 c 0.5 1.6 1.1 3.2 1.9 4.7 c 0.2 0.4 0.3 0.8 0.1 1.2 l -0.8 2.3 c -0.2 0.5 0 1.1 0.4 1.5 L 8.8 42 c 0.4 0.4 1 0.5 1.5 0.4 l 2.3 -0.8 c 0.4 -0.1 0.8 -0.1 1.2 0.1 c 1.4 0.8 3 1.5 4.6 1.9 c 0.4 0.1 0.8 0.4 1 0.8 l 1.1 2.2 c 0.3 0.5 0.8 0.8 1.3 0.8 h 4.1 c 0.6 0 1.1 -0.3 1.3 -0.8 l 1.1 -2.2 c 0.2 -0.4 0.5 -0.7 1 -0.8 c 1.6 -0.5 3.2 -1.1 4.6 -1.9 c 0.4 -0.2 0.8 -0.3 1.2 -0.1 l 2.3 0.8 c 0.5 0.2 1.1 0 1.5 -0.4 l 2.9 -2.9 c 0.4 -0.4 0.5 -1 0.4 -1.5 l -0.8 -2.3 c -0.1 -0.4 -0.1 -0.8 0.1 -1.2 c 0.8 -1.5 1.5 -3 1.9 -4.7 c 0.1 -0.4 0.4 -0.8 0.8 -1 l 2.1 -1.1 c 0.5 -0.3 0.8 -0.8 0.8 -1.3 v -4.1 c 0.4 -0.5 0.1 -1.1 -0.4 -1.3 Z M 24 41.5 c -9.7 0 -17.5 -7.8 -17.5 -17.5 S 14.3 6.5 24 6.5 S 41.5 14.3 41.5 24 S 33.7 41.5 24 41.5 Z"></path>
+            </svg>
+          </a>
+        </span>
+        <ul class="profile-numbers">
+          <li>
+            <span>9</span> posts
+          </li>
+          <li>
+            <span>1.5k</span> followers
+          </li>
+          <li>
+            <span>750</span> following
+          </li>
+        </ul>
+        <span class="profile-bio">
+          <span>Amazing Brownies</span> 
+          <p>What do we say to the god of diet? Not today.</p>
+        </span>
+      </div>
+    </div>
+    <div class="highlight">
+    </div>
+    <div class="tabs">
+      <a class="tab-icon" href="#">
+        <svg aria-label="posts" class="post-tab" fill="#262626" height="12" viewBox=" 0 0 48 48" width="12">
+          <path d="M 45 1.5 H 3 c -0.8 0 -1.5 0.7 -1.5 1.5 v 42 c 0 0.8 0.7 1.5 1.5 1.5 h 42 c 0.8 0 1.5 -0.7 1.5 -1.5 V 3 c 0 -0.8 -0.7 -1.5 -1.5 -1.5 Z m -40.5 3 h 11 v 11 h -11 v -11 Z m 0 14 h 11 v 11 h -11 v -11 Z m 11 25 h -11 v -11 h 11 v 11 Z m 14 0 h -11 v -11 h 11 v 11 Z m 0 -14 h -11 v -11 h 11 v 11 Z m 0 -14 h -11 v -11 h 11 v 11 Z m 14 28 h -11 v -11 h 11 v 11 Z m 0 -14 h -11 v -11 h 11 v 11 Z m 0 -14 h -11 v -11 h 11 v 11 Z"></path>
+        </svg>
+        <span>posts</span>
+      </a>
+      <a class="tab-icon" href="#">
+        <svg aria-label="igtv" class="igtv-tab" fill="#262626" height="12" viewBox=" 0 0 48 48" width="12">
+          <path d="M 41 10 c -2.2 -2.1 -4.8 -3.5 -10.4 -3.5 h -3.3 L 30.5 3 c 0.6 -0.6 0.5 -1.6 -0.1 -2.1 c -0.6 -0.6 -1.6 -0.5 -2.1 0.1 L 24 5.6 L 19.7 1 c -0.6 -0.6 -1.5 -0.6 -2.1 -0.1 c -0.6 0.6 -0.7 1.5 -0.1 2.1 l 3.2 3.5 h -3.3 C 11.8 6.5 9.2 7.9 7 10 c -2.1 2.2 -3.5 4.8 -3.5 10.4 v 13.1 c 0 5.7 1.4 8.3 3.5 10.5 c 2.2 2.1 4.8 3.5 10.4 3.5 h 13.1 c 5.7 0 8.3 -1.4 10.5 -3.5 c 2.1 -2.2 3.5 -4.8 3.5 -10.4 V 20.5 c 0 -5.7 -1.4 -8.3 -3.5 -10.5 Z m 0.5 23.6 c 0 5.2 -1.3 7 -2.6 8.3 c -1.4 1.3 -3.2 2.6 -8.4 2.6 H 17.4 c -5.2 0 -7 -1.3 -8.3 -2.6 c -1.3 -1.4 -2.6 -3.2 -2.6 -8.4 v -13 c 0 -5.2 1.3 -7 2.6 -8.3 c 1.4 -1.3 3.2 -2.6 8.4 -2.6 h 13.1 c 5.2 0 7 1.3 8.3 2.6 c 1.3 1.4 2.6 3.2 2.6 8.4 v 13 Z M 34.6 25 l -9.1 2.8 v -3.7 c 0 -0.5 -0.2 -0.9 -0.6 -1.2 c -0.4 -0.3 -0.9 -0.4 -1.3 -0.2 l -11.1 3.4 c -0.8 0.2 -1.2 1.1 -1 1.9 c 0.2 0.8 1.1 1.2 1.9 1 l 9.1 -2.8 v 3.7 c 0 0.5 0.2 0.9 0.6 1.2 c 0.3 0.2 0.6 0.3 0.9 0.3 c 0.1 0 0.3 0 0.4 -0.1 l 11.1 -3.4 c 0.8 -0.2 1.2 -1.1 1 -1.9 s -1.1 -1.2 -1.9 -1 Z"></path>
+        </svg>
+        <span>igtv</span>
+      </a>
+      <a class="tab-icon" href="#">
+        <svg aria-label="saved" class="saved-tab" fill="#262626" height="12" viewBox=" 0 0 48 48" width="12">
+          <path d="M 43.5 48 c -0.4 0 -0.8 -0.2 -1.1 -0.4 L 24 29 L 5.6 47.6 c -0.4 0.4 -1.1 0.6 -1.6 0.3 c -0.6 -0.2 -1 -0.8 -1 -1.4 v -45 C 3 0.7 3.7 0 4.5 0 h 39 c 0.8 0 1.5 0.7 1.5 1.5 v 45 c 0 0.6 -0.4 1.2 -0.9 1.4 c -0.2 0.1 -0.4 0.1 -0.6 0.1 Z M 24 26 c 0.8 0 1.6 0.3 2.2 0.9 l 15.8 16 V 3 H 6 v 39.9 l 15.8 -16 c 0.6 -0.6 1.4 -0.9 2.2 -0.9 Z"></path>
+        </svg>
+        <span>saved</span>
+      </a>
+      <a class="tab-icon" href="#">
+        <svg aria-label="tagged" class="tagged-tab" fill="#262626" height="12" viewBox=" 0 0 48 48" width="12">
+          <path d="M 41.5 5.5 H 30.4 c -0.5 0 -1 -0.2 -1.4 -0.6 l -4 -4 c -0.6 -0.6 -1.5 -0.6 -2.1 0 l -4 4 c -0.4 0.4 -0.9 0.6 -1.4 0.6 h -11 c -3.3 0 -6 2.7 -6 6 v 30 c 0 3.3 2.7 6 6 6 h 35 c 3.3 0 6 -2.7 6 -6 v -30 c 0 -3.3 -2.7 -6 -6 -6 Z m -29.4 39 c -0.6 0 -1.1 -0.6 -1 -1.2 c 0.7 -3.2 3.5 -5.6 6.8 -5.6 h 12 c 3.4 0 6.2 2.4 6.8 5.6 c 0.1 0.6 -0.4 1.2 -1 1.2 H 12.1 Z m 32.4 -3 c 0 1.7 -1.3 3 -3 3 h -0.6 c -0.5 0 -0.9 -0.4 -1 -0.9 c -0.6 -5 -4.8 -8.9 -9.9 -8.9 H 18 c -5.1 0 -9.4 3.9 -9.9 8.9 c -0.1 0.5 -0.5 0.9 -1 0.9 h -0.6 c -1.7 0 -3 -1.3 -3 -3 v -30 c 0 -1.7 1.3 -3 3 -3 h 11.1 c 1.3 0 2.6 -0.5 3.5 -1.5 L 24 4.1 L 26.9 7 c 0.9 0.9 2.2 1.5 3.5 1.5 h 11.1 c 1.7 0 3 1.3 3 3 v 30 Z M 24 12.5 c -5.3 0 -9.6 4.3 -9.6 9.6 s 4.3 9.6 9.6 9.6 s 9.6 -4.3 9.6 -9.6 s -4.3 -9.6 -9.6 -9.6 Z m 0 16.1 c -3.6 0 -6.6 -2.9 -6.6 -6.6 c 0 -3.6 2.9 -6.6 6.6 -6.6 s 6.6 2.9 6.6 6.6 c 0 3.6 -3 6.6 -6.6 6.6 Z"></path>
+        </svg>
+        <span>tagged</span>
+      </a>
+    </div>
+  </section>
+  <section class="post-list">
+    <a href="" class="post">
+      <figure class="post-image">
+        <img src="images/brownie1.jpg" alt="brownies and coffee"/>
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-likes">150</span>
+          <span class="post-comments">10</span>
+        </p>
+      </span>
+    </a>
+    <a href="" class="post">
+      <figure class="post-image">
+        <img src="images/brownie2.jpg" alt="brownies and milk"/>
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-likes">150</span>
+          <span class="post-comments">10</span>
+        </p>
+      </span>
+    </a>
+    <a href="" class="post">
+      <figure class="post-image">
+        <img src="images/brownie3.jpg" alt="brownies tray"/>
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-likes">150</span>
+          <span class="post-comments">10</span>
+        </p>
+      </span>
+    </a>
+    <a href="" class="post">
+      <figure class="post-image">
+        <img src="images/brownie1.jpg" alt="brownies and coffee"/>
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-likes">150</span>
+          <span class="post-comments">10</span>
+        </p>
+      </span>
+    </a>
+    <a href="" class="post">
+      <figure class="post-image">
+        <img src="images/brownie2.jpg" alt="brownies and milk"/>
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-likes">150</span>
+          <span class="post-comments">10</span>
+        </p>
+      </span>
+    </a>
+    <a href="" class="post">
+      <figure class="post-image">
+        <img src="images/brownie3.jpg" alt="brownies tray"/>
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-likes">150</span>
+          <span class="post-comments">10</span>
+        </p>
+      </span>
+    </a>
+    <a href="" class="post">
+      <figure class="post-image">
+        <img src="images/brownie1.jpg" alt="brownies and coffee"/>
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-likes">150</span>
+          <span class="post-comments">10</span>
+        </p>
+      </span>
+    </a>
+    <a href="" class="post">
+      <figure class="post-image">
+        <img src="images/brownie2.jpg" alt="brownies and milk"/>
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-likes">150</span>
+          <span class="post-comments">10</span>
+        </p>
+      </span>
+    </a>
+    <a href="" class="post">
+      <figure class="post-image">
+        <img src="images/brownie3.jpg" alt="brownies tray"/>
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-likes">150</span>
+          <span class="post-comments">10</span>
+        </p>
+      </span>
+    </a>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <nav class="nav-footer">
+        <ul class="nav-footer-list">
+          <li>
+            <a href="#">información</a>
+          </li>
+          <li>
+            <a href="#">ayuda</a>
+          </li>
+          <li>
+            <a href="#">prensa</a>
+          </li>
+          <li>
+            <a href="#">api</a>
+          </li>
+          <li>
+            <a href="#">empleo</a>
+          </li>
+          <li>
+            <a href="#">privacidad</a>
+          </li>
+          <li>
+            <a href="#">condiciones</a>
+          </li>
+          <li>
+            <a href="#">ubicaciones</a>
+          </li>
+          <li>
+            <a href="#">cuentas destacadas</a>
+          </li>
+          <li>
+            <a href="#">hashtags</a>
+          </li>
+          <li>
+            <a href="#">idioma</a>
+          </li>
+        </ul>
+        <span class="credits">2020 instagram from facebook</span>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
