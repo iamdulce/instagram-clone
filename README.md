@@ -8,3 +8,4 @@ Another problem was that I couldn't put my 'profile-numbers' element in the same
 Still have so much to learn.
 
 Hope you like it!
+https://iamdulce.github.io/instagram-clone/
